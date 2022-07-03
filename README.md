@@ -28,7 +28,7 @@ React.js, sass
 
 
 #### Main
-- [슬라이드,캐러셀 이미지 구현] 좌,우 버튼 눌렀을 때, 여러장의 이미지가 한장씩 보이도록 구현했습니다. width : 100%, 100vw를 구현하여 반응형 웹페이지가 되도록 구현했습니다.
+- [슬라이드,캐러셀 이미지 구현] 좌,우 버튼 눌렀을 때, 여러장의 이미지가 한장씩 보이도록 구현했습니다. width : 100%, 100vw로 반응형 웹페이지가 되도록 했습니다.
 - [링크관리] 제품교환 서비스, Shop, perfumeTeller,자세히보기, 상품리뷰 등 클릭시 페이지 이동을 구현했습니다.
 
 #### Survey
@@ -39,7 +39,7 @@ React.js, sass
 #### Nav/Footer
 - [Nav - 스크롤 이벤트 구현] window에 EventListener를 부여하여 scrollY, scrollTop 값을 받도록 하고, 그 값이 >5 일때 색이 반전되도록 구현했습니다.
 - [Nav - Modal 구현] openModal(boolean) state로 mouseOver 했을 때, 모달이 열리도록 구현했습니다.
-
+- [Nav,Footer - Link 구현] 클릭시 페이지 이동 구현
 #### Login
 
 #### Signup
