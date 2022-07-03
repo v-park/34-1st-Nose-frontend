@@ -37,9 +37,8 @@ React.js, sass
 - SuveyName 뿐만 아니라, 다른 페이지에서도 설문을 통해 받은 데이터값을 QueryString으로 SuveyResult 까지 전달하도록 구현했습니다. 
 
 #### Nav/Footer
-- [Nav - 스크롤 이벤트 구현] window.
-- [Nav - Modal 구현]
-- [Nav,Footer - link 구현]
+- [Nav - 스크롤 이벤트 구현] window에 EventListener를 부여하여 scrollY, scrollTop 값을 받도록 하고, 그 값이 >5 일때 색이 반전되도록 구현했습니다.
+- [Nav - Modal 구현] openModal(boolean) state로 mouseOver 했을 때, 모달이 열리도록 구현했습니다.
 
 #### Login
 
