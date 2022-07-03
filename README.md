@@ -28,12 +28,23 @@ React.js, sass
 
 
 #### Main
+- [슬라이드,캐러셀 이미지 구현] 좌,우 버튼 눌렀을 때, 여러장의 이미지가 한장씩 보이도록 구현했습니다. width : 100%, 100vw를 구현하여 반응형 웹페이지가 되도록 구현했습니다.
+- [링크관리] 제품교환 서비스, Shop, perfumeTeller,자세히보기, 상품리뷰 등 클릭시 페이지 이동을 구현했습니다.
+
+#### Survey
+-[중첩라우팅 구현] Router.js 에서 Survey 컴포넌트에 Survey/* 를 부여하여 Survey/ 뒤에 붙는 url값은 모두 중첩 라우팅을 구현한 Survey.js 파일에서 참조하도록 하였습니다.
+- SurveyName.js 에서 유저로부터 받은 name을 SuveyResult.js 에서 보이도록 구현했습니다. QueryString을 통해 데이터를 넘겨주었습니다.
+- SuveyName 뿐만 아니라, 다른 페이지에서도 설문을 통해 받은 데이터값을 QueryString으로 SuveyResult 까지 전달하도록 구현했습니다. 
+
+#### Nav/Footer
+- [Nav - 스크롤 이벤트 구현] window.
+- [Nav - Modal 구현]
+- [Nav,Footer - link 구현]
 
 #### Login
 
 #### Signup
 
-#### Survey
 
 #### Shop
 
