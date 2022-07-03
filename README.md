@@ -41,6 +41,9 @@ React.js, sass
 - [Nav - Modal 구현] openModal(boolean) state로 mouseOver 했을 때, 모달이 열리도록 구현했습니다.
 - [Nav,Footer - Link 구현] 클릭시 페이지 이동 구현
 #### Login
+-로그인 아이디 패스워드 입력시 onChange함수로 구현하여 로그인 버튼 활성화 기능
+-로그인 활성화 될 시 메인페이지. 로 네비게이트 구현 
+-fetch 함수 사용하여 백엔드서버 통신을 통해 account값과 password 두 값의 -조건에 맞춰 들어간 후 통신 완료
 
 #### Signup
 
