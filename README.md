@@ -69,7 +69,25 @@ React.js, sass
 
 #### Detail
 
+[params를 이용한 동적 url]
+- Shop page에서든 Survey page에서든 선택한 item 의 id 값을 토대로 화면이 다른 정보들로 렌더링이 되어야 하기에 useParams를 사용하여 선택된 상품의 id 값에 맞춰서 서버에 다르게 요청을 할 수 있도록 구현
+[slides 이미지 구현]
+상품들의 이미지 파일들을 라이브러리 없이 slide 형태를 구현하였음. index를 설정하여 이미지들의 index값에 맞춰서 이미지들의 px 만큼 클릭시 이동하여 선택된 index값의 이미지만 보여지게 구현.
+[장바구니에 담을 객체 수량 변경]
+shop page나 survey page를 통해서 받아오는 상품 하나하나의 객체 값의 수량을 변경하여 변경된 객체가 장바구니에 담기를 클릭하였을 때 백엔드에 보내질 수 있도록 객체를 state 변수인
+setItemInfo 를 통해 업데이트하여 전송하게 만듬.
+
+
 #### Cart
+
+[delete 메서드]
+-fetch를 이용하여 서버에 선택된 item의 id 값을 받아와서 그 id 값의 맞춰 method:DELETE를 이용하여 서버 상에서도 DELETE를 시킵니다.
+[부분 선택, 전체 선택]
+-전체 선택을 통해 장바구니에 담긴 모든 상품들의 checked를 true , false로 변경을 하려고 할 때 선택된 전체 선택의 target.checked의 값을 모든 list 들의 checked의 값을 target.checked의 값을 넣어 변경이 되도록 작성하였음.
+[장바구니 수량 변경]
+-이또한 내가 선택한 객체의 id값을 받아와 그것에 맞추어 선택된 값들의 수량이 변경이 될 수 있도록 만들어야 함.
+ map 함수를 사용하여 받아온 id의 값과 listItem의 id 값이 일치하면 quantity를 변경할 수 있도록 구성함.
+
 <br>
 
 *아래 Reference 부분은 README.md에 꼭 포함되어야 하는 내용입니다*
