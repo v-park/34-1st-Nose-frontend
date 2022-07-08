@@ -7,7 +7,7 @@
 ### 개발 인원 및 기간
 
 - 개발기간 : 2022/6/20 ~ 2022/7/1
-- 개발 인원 : 프론트엔드 4명, 백엔드 2명
+- 개발 인원 : 프론트엔드 4명 최재혁 정현준 박보현 안유주, 백엔드 2명 김상웅 
 - [백엔드 github 링크](https://github.com/wecode-bootcamp-korea/34-1st-Nose-backend/pulls)
 - [프론트 github 링크](https://github.com/wecode-bootcamp-korea/34-1st-Nose-frontend/pulls)
 
