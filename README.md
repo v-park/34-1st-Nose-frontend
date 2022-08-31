@@ -57,9 +57,9 @@ React.js, sass
 
 #### Shop
 
-[반복되는 데이터 컴포넌트화]
+[반복되는 데이터 처리]
 - Shop 페이지에서 perfume 항목이 반복되어 perfume & perfumelist를 컴포넌트화
-- 백엔드에서 Mock data를 받아와 fetch 함수로 호출한 후, map 함수를 사용해 반복해서 UI 설정
+- 백엔드에서 Mock data를 받아와 fetch 함수로 호출한 후, 반복되는 데이터를 map 함수를 사용해 display
 
 [상품 카테고리화]
 - Shop 페이지를 카테고리화 하고 프론트 & 백 객체 배열 데이터에 [All, 시트러스, 플로럴, 우디, 머스크]에 해당하는 tags를 넣어 matching 되는 tags의 카테고리를 filter 함수로 호출
